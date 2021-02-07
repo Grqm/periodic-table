@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+body {
+    background-color: #346b31;
+    color: #eeeeee;
+    font-family: 'PT Mono', monospace;
+}
+
+.elements-table {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.element {
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    width: 60px;
+    margin: 4px;
+    padding: 12px 14px;
+    transition: 0.5s ease;
+}
+
+.element:hover {
+    background-color: #3d7c3a;
+    box-shadow: 4px 4px #2c5a29;
+    cursor: pointer;
+}
+
+#blankspace {
+    border: none;
+    padding: 53px 14px;
+}
+
+#blankspace:hover {
+    cursor: default;
+    background-color: #346b31;
+    box-shadow: none;
+}
+
+.element h1, h5, h6 {
+    text-align: center;
+    margin: 0;
+}
+
+.element .atmcNum {
+    text-align: left;
+}
+
+#Alkaline-earth-metals:hover {
+    color: #fff388;
+    border: 2px solid #fff388;
+}
+
+#Alkali-metals:hover {
+    color: #ffcb7e;
+    border: 2px solid #ffcb7e;
+}
+
+#Reactive-nonmetals:hover {
+    color: #8dff7e;
+    border: 2px solid #8dff7e;
+}
+
+#Transition-metals:hover {
+    color: #ff7e7e;
+    border: 2px solid #ff7e7e;
+}
+
