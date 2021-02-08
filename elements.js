@@ -149,4 +149,268 @@ var elements = [
             class: "Transition metals"
         },
     ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Vanadium",
+            atmcNum: "23",
+            atmcWeight: "50.942",
+            symbol: "V",
+            class: "Transition metals"
+        },
+        {
+            name: "Niobium",
+            atmcNum: "41",
+            atmcWeight: "92.906",
+            symbol: "Nb",
+            class: "Transition metals"
+        },
+        {
+            name: "Tantalum",
+            atmcNum: "73",
+            atmcWeight: "180.95",
+            symbol: "Ta",
+            class: "Transition metals"
+        },
+        {
+            name: "Dubnium",
+            atmcNum: "105",
+            atmcWeight: "(268)",
+            symbol: "Db",
+            class: "Transition metals"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Chromium",
+            atmcNum: "24",
+            atmcWeight: "51.996",
+            symbol: "Cr",
+            class: "Transition metals"
+        },
+        {
+            name: "Molybdenum",
+            atmcNum: "42",
+            atmcWeight: "95.95",
+            symbol: "Mo",
+            class: "Transition metals"
+        },
+        {
+            name: "Tungsten",
+            atmcNum: "74",
+            atmcWeight: "183.84",
+            symbol: "W",
+            class: "Transition metals"
+        },
+        {
+            name: "Seaborgium",
+            atmcNum: "106",
+            atmcWeight: "(269)",
+            symbol: "Sg",
+            class: "Transition metals"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Manganese",
+            atmcNum: "25",
+            atmcWeight: "54.938",
+            symbol: "Mn",
+            class: "Transition metals"
+        },
+        {
+            name: "Technetium",
+            atmcNum: "43",
+            atmcWeight: "(98)",
+            symbol: "Tc",
+            class: "Transition metals"
+        },
+        {
+            name: "Rhenium",
+            atmcNum: "75",
+            atmcWeight: "186.21",
+            symbol: "Re",
+            class: "Transition metals"
+        },
+        {
+            name: "Bohrium",
+            atmcNum: "107",
+            atmcWeight: "(270)",
+            symbol: "Bh",
+            class: "Transition metals"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Iron",
+            atmcNum: "26",
+            atmcWeight: "55.845",
+            symbol: "Fe",
+            class: "Transition metals"
+        },
+        {
+            name: "Ruthenium",
+            atmcNum: "44",
+            atmcWeight: "101.07",
+            symbol: "Ru",
+            class: "Transition metals"
+        },
+        {
+            name: "Osmium",
+            atmcNum: "76",
+            atmcWeight: "190.23",
+            symbol: "Os",
+            class: "Transition metals"
+        },
+        {
+            name: "Hassium",
+            atmcNum: "108",
+            atmcWeight: "(277)",
+            symbol: "Hs",
+            class: "Transition metals"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Cobalt",
+            atmcNum: "27",
+            atmcWeight: "58.933",
+            symbol: "Co",
+            class: "Transition metals"
+        },
+        {
+            name: "Rhodium",
+            atmcNum: "45",
+            atmcWeight: "102.91",
+            symbol: "Rh",
+            class: "Transition metals"
+        },
+        {
+            name: "Iridium",
+            atmcNum: "77",
+            atmcWeight: "192.22",
+            symbol: "Ir",
+            class: "Transition metals"
+        },
+        {
+            name: "Meitnerium",
+            atmcNum: "109",
+            atmcWeight: "(278)",
+            symbol: "Mt",
+            class: "Undefined"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Nickel",
+            atmcNum: "28",
+            atmcWeight: "58.693",
+            symbol: "Ni",
+            class: "Transition metals"
+        },
+        {
+            name: "Palladium",
+            atmcNum: "46",
+            atmcWeight: "106.42",
+            symbol: "Pd",
+            class: "Transition metals"
+        },
+        {
+            name: "Platinum",
+            atmcNum: "78",
+            atmcWeight: "195.08",
+            symbol: "Pt",
+            class: "Transition metals"
+        },
+        {
+            name: "Darmstadtium",
+            atmcNum: "110",
+            atmcWeight: "(281)",
+            symbol: "Ds",
+            class: "Undefined"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Copper",
+            atmcNum: "29",
+            atmcWeight: "63.546",
+            symbol: "Cu",
+            class: "Transition metals"
+        },
+        {
+            name: "Silver",
+            atmcNum: "47",
+            atmcWeight: "107.87",
+            symbol: "Ag",
+            class: "Transition metals"
+        },
+        {
+            name: "Gold",
+            atmcNum: "79",
+            atmcWeight: "196.97",
+            symbol: "Au",
+            class: "Transition metals"
+        },
+        {
+            name: "Roentgenium",
+            atmcNum: "111",
+            atmcWeight: "(282)",
+            symbol: "Rg",
+            class: "Undefined"
+        },
+    ],
+    [
+        {name: "",},
+        {name: "",},
+        {name: "",},
+        {
+            name: "Zinc",
+            atmcNum: "30",
+            atmcWeight: "65.38",
+            symbol: "Zn",
+            class: "Transition metals"
+        },
+        {
+            name: "Cadmium",
+            atmcNum: "48",
+            atmcWeight: "112.41",
+            symbol: "Cd",
+            class: "Transition metals"
+        },
+        {
+            name: "Mercury",
+            atmcNum: "80",
+            atmcWeight: "200.59",
+            symbol: "Hg",
+            class: "Transition metals"
+        },
+        {
+            name: "Copernicium",
+            atmcNum: "112",
+            atmcWeight: "(285)",
+            symbol: "Cn",
+            class: "Undefined"
+        },
+    ],
 ]

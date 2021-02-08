@@ -14,16 +14,16 @@
             function insertElement(element, rowNum) {
                 var row = document.querySelector(`#row${rowNum}`)
                 if (element.name) {
-                    if ((element.name).length > 10) {
-                        var size = "8px";
+                    if ((element.name).length > 9) {
+                        var style = "font-size: 9px; font-weight: lighter";
                     } else {
-                        var size = "13px";
+                        var style = "font-size: 13px";
                     }
                     var elementHtml = `
                         <div class="element" id="${(element.class).replace(/\s/g, '-')}" title="${element.class}">
                             <h5 class="atmcNum">${element.atmcNum}</h5>
                             <h1 class="symbol">${element.symbol}</h1>
-                            <h5 class="name" style="font-size: ${size};">${element.name}</h5>
+                            <h5 class="name" style="${style};">${element.name}</h5>
                             <h6 class="atmcWeight">${element.atmcWeight}</h6>
                         </div>
                     `
