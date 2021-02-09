@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/styles.css">
+        <title>Periodic Table</title>
     </head>
     <body>
         <div class="elements-container">
@@ -48,6 +49,29 @@
                 }
             }
             
+        </script>
+        <script>
+            document.addEventListener('click', function(e) {
+                e = e || window.event;
+                var target = e.target || e.srcElement;
+
+                if (target.parentElement.className == "element" || target.className == "element") {
+                    var element = target.parentElement;
+                    var atmcNum = parseInt(element.childNodes[1].textContent);
+                    var atmcWeight = parseFloat(element.childNodes[7].textContent);
+                    var neutronNum = Math.round(atmcWeight - atmcNum);
+                    
+                    console.log(`${element.childNodes[5].textContent} has ${atmcNum} Protons, ${neutronNum} Neutrons, and ${atmcNum} Electrons.`);
+
+                    if (element.className == "element") {
+                        var color = element.style.color;
+                        element.style=`box-shadow: 0 0 6px ${color};`;
+                    } else if (target.id != "blankspace") {
+                        var color = target.style.color;
+                        target.style=`box-shadow: 0 0 6px ${color};`;
+                    }
+                }
+            }, false);
         </script>
     </body>
 </html>

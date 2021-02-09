@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 body {
-    background-color: #131313;
+    background-color: #ffffff;
     font-family: 'PT Mono', monospace;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .element {
-    background-color: #131313;
+    background-color: rgba(0, 0, 0, 0);
     width: 60px;
     height: 80px;
     margin: 4px;
@@ -28,7 +28,6 @@ body {
 }
 
 #blankspace {
-    background-color: #131313;
     border: none;
     padding: 14px 16px;
 }
@@ -44,51 +43,51 @@ body {
 }
 
 #Alkaline-earth-metals {
-    color: #fff388;
-    border: 2px solid #fff388;
+    color: #ffd900;
+    border: 2px solid #ffd900;
 }
 
 #Alkali-metals {
-    color: #ffcb7e;
-    border: 2px solid #ffcb7e;
+    color: #ff8800;
+    border: 2px solid #ff8800;
 }
 
 #Reactive-nonmetals {
-    color: #8dff7e;
-    border: 2px solid #8dff7e;
+    color: #00ff55;
+    border: 2px solid #00ff55;
 }
 
 #Transition-metals {
-    color: #ff7e7e;
-    border: 2px solid #ff7e7e;
+    color: #ff0037;
+    border: 2px solid #ff0037;
 }
 
 #Undefined {
-    color: #5c5c5c;
+    color: #303030;
     border: 2px solid #303030;
 }
 
 #Alkaline-earth-metals:hover {
-    color: #000000;
-    background-color: #fff388;
+    color: #ffffff;
+    background-color: #ffd900;
 }
 
 #Alkali-metals:hover {
-    color: #000000;
-    background-color: #ffcb7e;
+    color: #ffffff;
+    background-color: #ff8800;
 }
 
 #Reactive-nonmetals:hover {
-    color: #000000;
-    background-color: #8dff7e;
+    color: #ffffff;
+    background-color: #00ff55;
 }
 
 #Transition-metals:hover {
-    color: #000000;
-    background-color: #ff7e7e;
+    color: #ffffff;
+    background-color: #ff0037;
 }
 
 #Undefined:hover {
     color: #ffffff;
-    background-color: #5c5c5c;
+    background-color: #303030;
 }
